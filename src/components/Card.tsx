@@ -9,8 +9,8 @@ export const Card = () => {
     {
       id: 2,
       image: '/src/assets/images/alex-knight-j4uuKnN43_M-unsplash.jpg',
-      title: 'HEHE',
-      description: 'HOHO',
+      title: 'AD',
+      description: 'ADS',
     },
   ];
   return (

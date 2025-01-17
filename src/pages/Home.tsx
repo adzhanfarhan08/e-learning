@@ -1,32 +1,10 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Navbar from './Navbar';
+import { Category } from '../components/Category';
+import { FAQ } from '../components/FAQ';
 
-import { KaryaStudents } from '../pages/KaryaStudents';
-import { Category } from './Category';
-import { FAQ } from './FAQ';
-
-export const HeroSection = () => {
-  //   const Section = [
-  //     {
-  //       id: 1,
-
-  //     },
-  //   ];
+const Home = () => {
   return (
-    <div className="">
+    <div className="bg-yellow-200">
       <main id="one-section" className="min-h-screen">
-        <Router>
-          {/* Navbar */}
-          <Navbar />
-
-          {/* Routes */}
-          <div className="p-4">
-            <Routes>
-              <Route path="/karya-students" element={<KaryaStudents />} />
-            </Routes>
-          </div>
-        </Router>
-
         <div className="flex gap-96 justify-center items-center">
           <div className="text-3xl font-bold">Selamat Datang di LMS</div>
           <div>
@@ -44,3 +22,5 @@ export const HeroSection = () => {
     </div>
   );
 };
+
+export default Home;
