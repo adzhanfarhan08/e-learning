@@ -7,7 +7,7 @@ import Home from './pages/Home';
 import KaryaStudents from './pages/KaryaStudents';
 import { SyaratKetentuan } from './pages/SyaratKetentuan';
 import { Panduan } from './pages/Panduan';
-import { FAQ } from './components/FAQ';
+import { FAQ } from './pages/FAQ';
 
 const App = () => {
   return (

@@ -1,7 +1,11 @@
 export const Panduan = () => {
   return (
     <div>
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid amet nostrum rem? Perspiciatis veritatis quam eius exercitationem voluptas alias modi consequatur ipsam facilis dolor itaque ducimus hic repellendus, facere nulla.
+      <div className="flex justify-center items-center">
+        <div className="my-10">
+          <h1 className="text-xl font-bold">Panduan</h1>
+        </div>
+      </div>
     </div>
   );
 };
