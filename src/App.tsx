@@ -5,7 +5,7 @@ import { Route, Routes } from 'react-router-dom';
 // Pages
 import Home from './pages/Home';
 import KaryaStudents from './pages/KaryaStudents';
-import { SyaratKetentuan } from './pages/SyaratKetentuan';
+import { SyaratKetentuan } from './pages/SyaratdanKetentuan';
 import { Panduan } from './pages/Panduan';
 import { FAQ } from './pages/FAQ';
 
